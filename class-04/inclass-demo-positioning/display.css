@@ -1,0 +1,38 @@
+body {
+  background: blue;
+}
+
+section {
+  background: grey;
+  padding: 20px;
+
+  margin-bottom: 100px;
+}
+
+section div {
+  background: red;
+  margin-top: 20px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.float-left-container div {
+  float: left;
+}
+
+.float-right-container div {
+  float: right;
+}
+
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clear{
+  clear: left;
+}
