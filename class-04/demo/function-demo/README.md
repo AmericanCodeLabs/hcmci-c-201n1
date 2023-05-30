@@ -56,5 +56,3 @@ declare_keyword  function_name(parameter | arguments){
 function_name(parameters);
 
 ```
-
-
