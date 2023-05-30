@@ -11,8 +11,10 @@ tags: []
 
 ## Git branch command line
 
-- Create branch `git checkout -b $branch_name`
+- Check current branch name: `git branch`
 
-- ACP: publish branch
+- Switch between branchs: `git checkout $branch_name`
 
-- ACP: edit and commit a file
+- Create new branch `git checkout -b $branch_name`
+
+- Download git logs: `git fetch`
