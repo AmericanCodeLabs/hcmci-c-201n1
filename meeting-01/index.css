@@ -1,0 +1,27 @@
+ul {
+  color: red;
+}
+
+ul li {
+  color: blue;
+}
+
+ul li div {
+  color: yellow;
+}
+
+
+/* 
+
+SASS
+
+ul
+  color: red
+
+  li 
+    color: blue
+
+    div
+      color: yellow
+
+*/
