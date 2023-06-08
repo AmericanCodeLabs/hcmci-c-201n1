@@ -1,0 +1,35 @@
+section {
+  background: gray;
+  width: 200px;
+  height: 200px;
+}
+
+div {
+  background: blue;
+  min-width: 50px;
+  display: inherit;
+
+}
+
+p{
+  background: red;
+}
+
+.parent{
+  display: block;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap; */
+
+
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* 2 1 1 2 */
+
+  /* align-items: end; */
+}
+
