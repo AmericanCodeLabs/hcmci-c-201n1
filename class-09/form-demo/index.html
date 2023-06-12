@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- 
+    Tạo một form để lấy thông tin:
+      - Tên
+      - Số lượng bánh bán ra theo giờ (6am ->  7pm)
+
+
+  -->
+
+  <h1>Data</h1>
+  <table id="locationDataTable">
+    <tr>
+      <th>Location</th>
+      <th>6am</th>
+      <th>7am</th>
+      <th>8am</th>
+      <th>9am</th>
+      <th>10am</th>
+    </tr>
+
+  </table>
+
+  <h1>Form</h1>
+  <form id="saleDataForm" action="/api/login/" method="post">
+
+    <div class="item">
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location">
+    </div>
+    <div class="item">
+      <label for="">6am</label>
+      <input type="number" id="6am">
+    </div>
+    <div class="item">
+      <label for="">7am</label>
+      <input type="number" id="7am">
+    </div>
+    <div class="item">
+      <label for="">8am</label>
+      <input type="number" id="8am">
+    </div>
+    <div class="item">
+      <label for="">9am</label>
+      <input type="number" id="9am">
+    </div>
+
+    <div class="item">
+      <label for="">10am</label>
+      <input type="number" id="10am">
+    </div>
+
+    <div class="item">
+      <label for="open">open</label>
+      <input id="open" type="checkbox">
+    </div>
+
+    <button id="submit" type="submit">Submit</button>
+
+  </form>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

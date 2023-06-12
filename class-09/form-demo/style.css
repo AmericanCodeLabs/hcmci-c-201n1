@@ -1,0 +1,19 @@
+th,
+td {
+  border: 1px solid gray;
+}
+
+form {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+label{
+  width: 80px;
+  display: inline-block;
+  text-align: right;
+}
+
+.item{
+  margin-bottom: 10px;
+}
