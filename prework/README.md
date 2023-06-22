@@ -34,7 +34,6 @@ This is a **bold text**
 
 > Để hiển thị trạng thái của các files trong Git thì dùng lệnh `git status`
 
-
 ### Github
 
 > Là một nơi lưu trữ source code, cho phép nhiều lập trình viên cùng làm việc trên một source code
@@ -42,3 +41,50 @@ This is a **bold text**
 ### Repositories
 
 > Là một thư mục nhỏ trong tài khoản Github dùng để lưu trữ các source code, một repositoty tương ứng với 1 source code/project
+
+## HTML
+
+> Là ngôn ngữ đánh dấu siêu văn bản,...
+
+## CSS
+
+> Là một bộ các quy tắc dùng để cấu hình cách hiển thị của các phần tử HTML trong trang
+
+### CSS rules
+
+```css
+
+selector {
+  # rules
+  CSS-property: CSS-value;
+}
+
+```
+
+- Selector: dùng để xác định các phần tử nào sẽ được áp dụng bộ luật CSS này
+- CSS-property: Thuộc tính CSS
+- CSS-value: Giá trị hợp lệ của thuộc tính CSS
+
+## JS Basic
+
+## CSS Box Model
+
+## HTML link
+
+## CSS Layout
+
+### CSS Display
+
+- inline
+- block
+- inline-block
+
+### CSS Position
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
+
+## HTML Media
