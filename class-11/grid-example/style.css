@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid blue;
+  gap: 20px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid red;
+  background: #ddd;
+  gap: 10px;
+}
+
+.grid-item div {
+  background: green;
+}
+
+.grid-container1 {
+  border: 1px solid blue;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-item1 {
+  background: #ddd;
+  border: 1px solid green;
+}
+
+.item1-new {
+  grid-row: 1 / 4;
+}
