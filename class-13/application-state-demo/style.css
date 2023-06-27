@@ -1,0 +1,27 @@
+/* light theme */
+.light-theme {
+  background: white;
+}
+
+.light-theme h1 {
+  color: black;
+}
+
+.light-theme button {
+  background: red;
+  color: white;
+}
+
+/* dark theme */
+.dark-theme {
+  background: black;
+}
+
+.dark-theme h1 {
+  color: white;
+}
+
+.dark-theme button {
+  background: white;
+  color: black;
+}

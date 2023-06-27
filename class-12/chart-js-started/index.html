@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Chart.js started demo</h1>
+  <!-- 
+    Để sử dụng bất kỳ 1 thư viện nào
+
+    1. Import file mã nguồn/source code/library của thư viện đó vào code của mình
+
+    2. Đọc documentation
+      a. Đọc full documentation
+      b. Đọc Getting started/quick installation
+  -->
+
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    const ctx = document.getElementById('myChart');
+
+    console.log(ctx);
+
+    /*
+        new Chart(canvasContainer, configObject);
+    */
+
+    let chartData = {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+        label: ['# of Votes', "12312", 123132],
+        data: [2, 19, 3, 5, 2, 3],
+        backgroundColor: [
+          'red',
+          'blue',
+          'yellow',
+          'green',
+          'purple',
+          'orange'
+        ],
+        borderWidth: 1
+      }],
+
+    };
+
+    let configObject = {
+      type: 'bar',
+      data: chartData,
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'FrontEnd Class 12'
+          }
+        }
+      }
+    };
+
+    new Chart(ctx, configObject);
+  </script>
+
+</body>
+
+</html>
