@@ -47,34 +47,29 @@ while (radom3Elements.length < 3) {
 
 console.log(radom3Elements);
 
-
-function generateProductHTML(productData) {
-
-  let title = document.createElement('h2');
-  title.setAttribute("class", "title");
-  title.textContent = productData.title;
-
-
-  let img = document.createElement('img');
-  img.setAttribute("class", "thumpnail");
-  img.setAttribute("src", productData.image);
-  img.setAttribute("alt", "invalid");
-
-  let article = document.createElement('article');
-  article.setAttribute("class", "product");
-  article.appendChild(title);
-  article.appendChild(img);
-
-  return article;
-}
-
+let productContainers = document.getElementsByClassName('product');
 
 for (let i = 0; i < radom3Elements.length; i++) {
 
-  let generateContainer = document.getElementById('generateProducts');
+  let productData = radom3Elements[i];
+  let productContainer = productContainers[i];
 
-  let productHTML = generateProductHTML(radom3Elements[i]);
+  // 2.1 get element from object
+  let titleImg = productContainer.getElementsByClassName("title")[0];
+  let objectImg = productContainer.getElementsByClassName("thumpnail")[0];
+  // 2.2 Update to HTMl
+  console.log(productData, productContainer, titleImg, objectImg);
+  titleImg.textContent = productData.title;
+  objectImg.src = productData.image;
+  // Math random function to randomize
 
-  generateContainer.appendChild(productHTML);
+
+
 
 }
+// let random= Math.floor(Math.random()*pool.length);
+// let elementGenerated = pool[random];
+// console.log (elementGenerated)
+// event listentner
+// decalre vairable for store data clicked.
+// show data on the web

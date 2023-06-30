@@ -61,7 +61,6 @@ function generateProductHTML(productData) {
   img.setAttribute("alt", "invalid");
 
   let article = document.createElement('article');
-  article.setAttribute("class", "product");
   article.appendChild(title);
   article.appendChild(img);
 

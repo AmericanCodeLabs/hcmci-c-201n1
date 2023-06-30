@@ -1,0 +1,12 @@
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  border: 2px solid red;
+}
+
+.thumpnail {
+  width: 40px;
+}
