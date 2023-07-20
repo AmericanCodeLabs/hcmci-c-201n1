@@ -90,25 +90,22 @@ function People(myName) {
 }
 
 const dat = new People("Đạt");
-dat["sayMyName"]();
+// dat["sayMyName"]();
 
-const khoi = new People("Khôi");
-khoi.sayMyName();
+// const khoi = new People("Khôi");
+// khoi.sayMyName();
 
-const sang = new People("Sáng");
-sang.sayMyName();
+// const sang = new People("Sáng");
+// sang.sayMyName();
 
-/*
-  hand: 2,
-  leg: 2,
-  myName: "Sáng",
-  run: function () {
-    console.log("Run");
-  },
-  sayHi: function () {
-    console.log("Hi");
-  },
-  sayMyName: function () {
-    console.log("Hi! my name is ", this.myName)
-  }
-*/
+console.log(dat);
+
+// Object prototype
+
+People.prototype.age = 18;
+People.prototype.sayMyAge = function(){
+  console.log("My age is: ", this.age);
+}
+
+console.log(dat.age);
+dat.sayMyAge();
