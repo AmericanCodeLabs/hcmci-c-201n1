@@ -1,0 +1,65 @@
+.flex-container {
+  background-color: purple;
+  /* display:block */
+}
+
+.flex-item {
+  background-color: orange;
+  /* margin: 1rem; */
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* flex-direction */
+.flex-container {
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+}
+
+/* flex-wrap */
+.flex-item {
+  /* min-width: 33%; */
+}
+.flex-container {
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+}
+
+/* shorthand flex-flow */
+.flex-container {
+  /* flex-flow: row wrap; */
+}
+
+/* justify-content */
+.flex-container {
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+}
+
+/* cross axis - align-items */
+
+.flex-container {
+  height: 10rem;
+}
+
+.flex-item {
+  height: 4rem;
+}
+
+
+
+.flex-container{
+  /* align-items: start; */
+  /* align-items: end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+}
