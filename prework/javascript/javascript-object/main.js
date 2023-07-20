@@ -79,3 +79,10 @@
 
 // dat.sayMyName();
 
+
+const seattle = {
+  locationName: "Seattle",
+  minCusPerHour: 23,
+  maxCusPerHour: 65,
+  avgPurchasedCookiesPerCus: 6.3,
+}
